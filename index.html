@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="main.css">
     <title>Crear repositorio en github</title>
 </head>
@@ -12,21 +15,21 @@
       <img src="./imagenes/logo2.png" alt="logo" class="logo">
         <!-- Navigation -->
         <nav class="main-nav">
-          <ul>
-            <li>
-              <a href="index.html">Inicio</a>
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
-            <li>
-              <a href="paginas/nosotros.html">Nosotros</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="paginas/nosotros.html">Nosotros</a>
             </li>
-            <li>
-              <a href="paginas/servicios.html">Servicios</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="paginas/servicios.html">Servicios</a>
             </li>
-            <li>
-              <a href="paginas/productos.html">Productos</a>
-            </li>
-            <li>
-              <a href="paginas/contacto.html">Contacto</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="paginas/productos.html" >Productos</a>
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link active" href="paginas/contacto.html" >Contacto</a>
             </li>
           </ul>
         </nav>
@@ -43,31 +46,38 @@
         </section>
     
         <!-- Boxes Section -->
-        <section class="boxes">
-          <div class="box">
-            <i class="fas fa-chart-pie fa-4x"></i>
-            <h3>Maquinas</h3>
-            <p>Todas las maquinas que trabajamos con sus caracterizticas .</p>
+        <div class="card-group">
+          <div class="card">
+            <img src="imagenes/todo el gimnasio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maquinas</h5><br>
+              <p class="card-text">Todas las maquinas que trabajamos con sus caracterizticas .</p>
+            </div>
           </div>
-          <div class="box">
-            <i class="fas fa-globe fa-4x"></i>
-            <h3>Barras,Mancuernas y Discos</h3>
-            <p>Distintos modelos de barras que trabajamos con sus caracterizticas.
-              Todas las mancuernas que trabajamos con sus caracterizticas.
-              Todas los discos que trabajamos con sus diferentes kilogramos.
-            </p>
+          <div class="card">
+            <img src="imagenes/barras y mancuernas.png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Barras,Mancuernas y Discos</h5>
+              <p class="card-text">Distintos modelos de barras que trabajamos con sus caracterizticas.
+                Todas las mancuernas que trabajamos con sus caracterizticas.
+                Todas los discos que trabajamos con sus diferentes kilogramos.</p>
+            </div>
           </div>
-          <div class="box">
-            <i class="fas fa-cog fa-4x"></i>
-            <h3>Suplementos Deportivos</h3>
-            <p>Todas los tipos de suplementos que trabajamos con sus diferentes caracterizticas .</p>
+          <div class="card">
+            <img src="imagenes/suplementos deportivos varios.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Suplementos Deportivos</h5>
+              <p class="card-text">Todas los tipos de suplementos que trabajamos con sus diferentes caracterizticas .</p>
+            </div>
           </div>
-          <div class="box">
-            <i class="fas fa-users fa-4x"></i>
-            <h3>Accesorios</h3>
-            <p>Todas los tipos de accesorios ya sea ropa como tensores ,sogas , etc. que trabajamos con sus diferentes caracterizticas .</p>
+          <div class="card">
+            <img src="imagenes/accesorios.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Accesorios</h5>
+              <p class="card-text">Todas los tipos de accesorios ya sea ropa como tensores ,sogas , etc. que trabajamos con sus diferentes caracterizticas .</p>
+            </div>
           </div>
-        </section>
+        </div>
     
         <!-- Info Section -->
         <section class="info">
@@ -95,15 +105,15 @@
           <img src="imagenes/mancuernas.jpg" alt="">
           <img src="imagenes/maquina de sentadilla smith1.png" alt="">
         </section>
-    
+          
         <!-- Footer -->
-        <footer>
+        <footer class="footer-final">
           <p>FacundoAna &copy; 2022</p>
         </footer>
     
       </div>
       <!-- Wrapper Ends -->
-    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
 

@@ -1,2 +1,2 @@
 # Maquetando-y-Aplicando-Bootstrap
-maquetando y aplicando bootstrap para coderhouse
+Maquetando y Aplicando Bootstrap para Coderhouse

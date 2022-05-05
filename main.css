@@ -183,7 +183,7 @@
   }
   
   /* Footer */
-  footer {
+  .footer-final {
     margin-top: 2rem;
     background: var(--dark);
     color: var(--light);
@@ -597,3 +597,7 @@ ul {
   transform: scale(1.05);
 
 }
+.card-text, .card-title{
+  color: grey;
+} important
+
